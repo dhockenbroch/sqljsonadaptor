@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="template.ZPM">
+    <Module>
+      <Name>sqljsonadaptor</Name>
+      <Version>1.0.0</Version>
+      <Description>Extends %JSON.Adapter and exposes its methods through SQLProcs to simplify JSON queries.</Description>
+      <Keywords>SQL,JSON</Keywords>
+      <Author>
+        <Person>David Hockenbroch</Person>
+        <CopyrightDate>2026</CopyrightDate>
+        <License>MIT</License>
+      </Author>
+      <Packaging>module</Packaging>
+      <Resource Directory="cls" Name="DH.JSONAdaptor.CLS"/>
+      <LifecycleClass>%IPM.Lifecycle.Module</LifecycleClass>
+      <SourcesRoot>src</SourcesRoot>
+    </Module>
+  </Document>
+</Export>
