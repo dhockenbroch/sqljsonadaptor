@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Export generator="IRIS" version="26" zv="IRIS for Windows (x86-64) 2025.1 (Build 230.2)" ts="2026-02-25 10:27:12">
+<Export generator="IRIS" version="26" zv="IRIS for Windows (x86-64) 2025.1 (Build 230.2)" ts="2026-02-25 14:39:38">
 <Class name="DH.JSONAdaptor">
 <Abstract>1</Abstract>
 <Super>%JSON.Adaptor</Super>
-<TimeChanged>67626,31723.8952461</TimeChanged>
+<TimeChanged>67626,52643.6811525</TimeChanged>
 <TimeCreated>67626,28632.596218</TimeCreated>
 
 <Method name="jsonstring">
 <ClassMethod>1</ClassMethod>
 <FormalSpec>id,map=""</FormalSpec>
+<ReturnType>%String</ReturnType>
 <SqlProc>1</SqlProc>
 <Implementation><![CDATA[
 	try{
@@ -26,7 +27,7 @@
 <Method name="jsonstream">
 <ClassMethod>1</ClassMethod>
 <FormalSpec>id,map=""</FormalSpec>
-<ReturnType>%String</ReturnType>
+<ReturnType>%Stream.Object</ReturnType>
 <SqlProc>1</SqlProc>
 <Implementation><![CDATA[
 	try{
